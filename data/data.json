@@ -1,0 +1,349 @@
+{
+  "tr": {
+    "cookieConsent": {
+      "text": "Sizlere daha iyi bir deneyim sunmak için web sitemizde çerezleri kullanıyoruz.",
+      "accept": "Kabul Et"
+    },
+    "back": "Geri",
+    "menu": [
+      { "title": "Anasayfa", "link": "index" },
+      { 
+        "title": "Projeler", 
+        "link": "projects",
+        "items": [
+          { "title": "Su Parkları", "link": "projects/water-parks" },
+          { "title": "Eğlence ve Tema Parkları", "link": "projects/theme-parks" },
+          { "title": "Su Sporları Merkezleri", "link": "projects/aquatic-centers" },
+          { "title": "Oteller ve Tatil Köyleri", "link": "projects/hotels-resorts" },
+          { "title": "Belediye Parkları", "link": "projects/municipal-parks" },
+          { "title": "Yolcu Gemileri", "link": "projects/cruise-ships" },
+          { "title": "Öne Çıkan Projeler", "link": "projects/featured" },
+          { "title": "Referanslar", "link": "projects/references" }
+        ]
+      },
+      { 
+        "title": "Hizmetler", 
+        "link": "services",
+        "items": [
+          { "title": "Tasarım", "link": "services/design" },
+          { "title": "Temalandırma", "link": "#" },
+          { "title": "Mühendislik", "link": "#" },
+          { "title": "Üretim", "link": "#" },
+          { "title": "Montaj", "link": "#" },
+          { "title": "Teknik Operasyonlar", "link": "#" },
+          { "title": "Kalite Yönetimi", "link": "#" }
+        ]
+      },
+      { 
+        "title": "Kurumsal", 
+        "link": "#",
+        "items": [
+          { "title": "Hakkımızda", "link": "corporate/about" },
+          { "title": "Tesislerimiz ve Ekibimiz", "link": "#" },
+          { "title": "Ofisler", "link": "#" }
+        ]
+      },
+      { "title": "İletişim", "link": "contact" }
+    ],
+    "hero": {
+      "title": "Geleceği İnşa Eden <span class='text-accent-500'>Mühendislik Çözümleri</span>",
+      "description": "Sektördeki 15 yıllık saha ve mühendislik deneyimimizle işinizi bir üst seviyeye taşıyoruz. Global standartlarda üretim ve hizmet.",
+      "video": "assets/images/hero/homepage.mp4",
+      "bgImage": "assets/images/hero/hero-bg.jpg",
+      "ctaText": "Keşfetmeye Başla",
+      "ctaLink": "#products"
+    },
+    "difference": {
+      "title": "BİZİ FARKLI KILAN NEDİR?",
+      "subtitle": "A'dan Z'ye tüm ihtiyaçlarınızı tek bir profesyonel entegre kaynaktan karşılıyoruz",
+      "features": [
+        { "icon": "fa-helmet-safety", "title": "15 Yıllık Saha Tecrübesi", "desc": "Global ölçekte dev projelerde edindiğimiz 15 yıllık saha deneyimini, yeni ve dinamik yapımızla birleştiriyoruz." },
+        { "icon": "fa-compass-drafting", "title": "Mühendislik Odaklı Yaklaşım", "desc": "İnşaat mühendisliği kökenli uzman kadromuzla, projelerinizi teknik mükemmellik ve güvenilirlik üzerine inşa ediyoruz." },
+        { "icon": "fa-handshake", "title": "Entegre Çözüm Ortaklığı", "desc": "Tasarım aşamasından anahtar teslimine kadar tüm süreçleri tek bir profesyonel kaynaktan yönetiyoruz." }
+      ]
+    },
+    "productsSection": {
+      "title": "Öne Çıkan Çözümlerimiz",
+      "desc": "İhtiyacınıza özel geliştirilen yüksek teknolojili sistemler."
+    },
+    "products": [
+      {
+        "id": 1,
+        "title": "Adrenalin Serisi",
+        "desc": "Yüksek hızlı, heyecan verici kaydırak sistemleri.",
+        "image": "assets/images/products/product-adrenaline.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Enerji Sistemleri",
+        "desc": "Sürdürülebilir ve verimli enerji dağıtım çözümleri.",
+        "image": "assets/images/products/product-energy.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Lojistik Altyapı",
+        "desc": "Depolama ve sevkiyat süreçleri için entegre altyapı.",
+        "image": "assets/images/products/product-logistics.jpg"
+      }
+    ],
+    "about": {
+      "title": "Mühendislik Temelli <span class='text-accent-500'>Global Vizyon</span>",
+      "subtitle": "15 Yıllık Saha Tecrübesi, Yeni Nesil Çözümler",
+      "content": "<p class='mb-4'><strong>Seaflux Global</strong>, eğlence ve su parkları sektöründe standartları yeniden belirlemek üzere yola çıkmış, mühendislik tabanlı bir teknoloji ve üretim şirketidir. Şirketimiz yeni bir oluşum olsa da, arkasındaki güç 15 yılı aşkın süredir dünyanın dört bir yanındaki en prestijli projelerde bizzat sahada görev almış, inşaat mühendisliği disiplininden gelen derin bir tecrübedir.</p><p class='mb-4'>Sektördeki 'anahtar teslim' anlayışını, sadece bir vaat olmaktan çıkarıp teknik bir gerçekliğe dönüştürüyoruz. İnşaat mühendisliği kökenli kurucu kadromuz sayesinde, projelerinizi sadece estetik birer tasarım olarak değil; statik hesaplarından zemin etüdüne, hidrolik dengesinden montaj güvenliğine kadar yaşayan, güvenli ve sürdürülebilir yapılar olarak ele alıyoruz.</p><p>Seaflux Global olarak biz, sadece tedarikçi değiliz; projenizin her aşamasına teknik hakimiyeti olan, sahadaki zorlukları masabaşında öngörebilen çözüm ortağınızız.</p>",
+      "image": "assets/images/about-team.jpg",
+      "stats": [
+        { "value": "15+", "label": "Yıl Tecrübe" },
+        { "value": "50+", "label": "Global Proje" },
+        { "value": "%100", "label": "Mühendislik" }
+      ]
+    },
+    "projectsPage": {
+      "title": "Global Referanslar",
+      "description": "Dünyanın dört bir yanında hayata geçirdiğimiz, mühendislik ve estetiğin buluştuğu prestijli projelerimiz.",
+      "items": [
+        { "title": "Aqua Fantasy", "location": "İzmir, Türkiye", "image": "assets/images/project-1.jpg", "category": "Su Parkı" },
+        { "title": "Ocean Dome", "location": "Miyazaki, Japonya", "image": "assets/images/project-2.jpg", "category": "Kapalı Park" },
+        { "title": "Siam Park", "location": "Tenerife, İspanya", "image": "assets/images/project-3.jpg", "category": "Tema Park" },
+        { "title": "Tropical Islands", "location": "Krausnick, Almanya", "image": "assets/images/project-4.jpg", "category": "Resort" },
+        { "title": "Yas Waterworld", "location": "Abu Dhabi, BAE", "image": "assets/images/project-5.jpg", "category": "Su Parkı" },
+        { "title": "Sunway Lagoon", "location": "Kuala Lumpur, Malezya", "image": "assets/images/project-6.jpg", "category": "Tema Park" }
+      ]
+    },
+    "servicesPage": {
+      "title": "Uçtan Uca Hizmetler",
+      "description": "Projenizin fikir aşamasından işletmeye alınmasına kadar tüm süreçlerde yanınızdayız.",
+      "items": [
+        { "icon": "fa-pencil-ruler", "title": "Konsept Tasarım", "desc": "Hayallerinizi teknik gerçeklikle buluşturan yaratıcı master planlama." },
+        { "icon": "fa-cogs", "title": "Mühendislik & Ar-Ge", "desc": "Statik, mekanik ve hidrolik hesaplamalarla güvenli yapıların inşası." },
+        { "icon": "fa-industry", "title": "Üretim", "desc": "RTM teknolojisi ile yüksek kaliteli, pürüzsüz ve dayanıklı kompozit üretimi." },
+        { "icon": "fa-hard-hat", "title": "Proje Yönetimi & Montaj", "desc": "Uluslararası standartlarda, zamanında ve güvenli saha operasyonları." },
+        { "icon": "fa-screwdriver-wrench", "title": "Bakım & Servis", "desc": "Tesisinizin ömrünü uzatan periyodik bakım ve yedek parça desteği." },
+        { "icon": "fa-chart-line", "title": "İşletme Danışmanlığı", "desc": "Verimlilik analizi ve operasyonel süreç iyileştirme hizmetleri." }
+      ]
+    },
+    "designPage": {
+      "title": "Konsept Tasarım",
+      "description": "Hayallerinizi gerçeğe dönüştüren yaratıcı ve teknik tasarım süreci.",
+      "content": "<p class='mb-4'>Seaflux Global tasarım ekibi, projenizin bulunduğu coğrafya, kültürel yapı ve hedef kitle analizlerini yaparak size özel konseptler geliştirir. 3D modelleme ve VR sunumları ile projenizi daha inşa edilmeden deneyimlemenizi sağlarız.</p><p>Her çizgi, estetik kaygıların yanı sıra mühendislik doğruları ve bütçe optimizasyonu gözetilerek atılır.</p>",
+      "image": "assets/images/service-design.jpg"
+    },
+    "waterParksPage": {
+      "title": "Su Parkları",
+      "description": "Anahtar teslim su parkı projelerimizden seçkiler.",
+      "content": "<p class='mb-4'>Küçük ölçekli butik otel parklarından, devasa temalı su dünyalarına kadar geniş bir yelpazede hizmet veriyoruz. Her proje, arazi eğimi ve iklim koşullarına göre optimize edilir.</p>",
+      "image": "assets/images/project-waterparks.jpg"
+    },
+    "contactPage": {
+      "title": "Bize Ulaşın",
+      "description": "Projeleriniz için profesyonel ekibimizle iletişime geçin.",
+      "address": "Gebze OSB, Teknoloji Bulvarı No:1, 41400 Kocaeli, Türkiye",
+      "phone": "+90 262 000 00 00",
+      "email": "info@seafluxglobal.com",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.6876735626!2d29.4166!3d40.8000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ4JzAwLjAiTiAyOcKwMjUnMDAuMCJF!5e0!3m2!1str!2str!4v1620000000000!5m2!1str!2str"
+    },
+    "footer": {
+      "copyright": "© 2026 Seaflux Global. Tüm hakları saklıdır. <span class=\"block md:inline text-white/70 text-sm md:text-base mt-1 md:mt-0 md:ml-2\">| Su Parkı Projeleri, Tema Park Tasarımı ve Mühendislik Çözümleri.</span>",
+      "contactBox": {
+        "title": "HEMEN ARAYIN!",
+        "label": "İLETİŞİM"
+      },
+      "newsletter": {
+        "title": "İLK SİZİN HABERİNİZ OLSUN!",
+        "placeholder": "E-posta adresinizi girin",
+        "button": "GÖNDER"
+      },
+      "links": [
+        {
+          "title": "Projeler",
+          "items": [
+            { "title": "Su Parkları", "link": "projects/water-parks" },
+            { "title": "Tema Parkları", "link": "projects/theme-parks" },
+            { "title": "Su Sporları Merkezleri", "link": "projects/aquatic-centers" },
+            { "title": "Oteller ve Tatil Köyleri", "link": "projects/hotels-resorts" }
+          ]
+        },
+        {
+          "title": "Hizmetler",
+          "items": [
+            { "title": "Tasarım", "link": "services/design" },
+            { "title": "Mühendislik", "link": "services" },
+            { "title": "Üretim", "link": "services" },
+            { "title": "Montaj", "link": "services" }
+          ]
+        },
+        {
+          "title": "Kurumsal",
+          "items": [
+            { "title": "Hakkımızda", "link": "corporate/about" },
+            { "title": "İletişim", "link": "contact" },
+            { "title": "Kariyer", "link": "#" }
+          ]
+        }
+      ]
+    }
+  },
+  "en": {
+    "cookieConsent": {
+      "text": "We use cookies on our website to provide you with a better experience.",
+      "accept": "Accept"
+    },
+    "back": "Back",
+    "menu": [
+      { "title": "Home", "link": "index" },
+      { 
+        "title": "Projects", 
+        "link": "projects",
+        "items": [
+          { "title": "Water Parks", "link": "projects/water-parks" },
+          { "title": "Amusement Parks & Theme Parks", "link": "projects/theme-parks" },
+          { "title": "Aquatic Centers", "link": "projects/aquatic-centers" },
+          { "title": "Hotels & Resorts", "link": "projects/hotels-resorts" },
+          { "title": "Municipal Parks", "link": "projects/municipal-parks" },
+          { "title": "Cruise Ships", "link": "projects/cruise-ships" },
+          { "title": "Featured Projects", "link": "projects/featured" },
+          { "title": "References", "link": "projects/references" }
+        ]
+      },
+      { 
+        "title": "Services", 
+        "link": "services",
+        "items": [
+          { "title": "Design", "link": "services/design" },
+          { "title": "Theming", "link": "#" },
+          { "title": "Engineering", "link": "#" },
+          { "title": "Manufacturing", "link": "#" },
+          { "title": "Installation", "link": "#" },
+          { "title": "Technical Operations", "link": "#" },
+          { "title": "Quality Management", "link": "#" }
+        ]
+      },
+      { 
+        "title": "Company", 
+        "link": "#",
+        "items": [
+          { "title": "About us", "link": "corporate/about" },
+          { "title": "Our Plants & Our Team", "link": "#" },
+          { "title": "Offices", "link": "#" }
+        ]
+      },
+      { "title": "Contact", "link": "contact" }
+    ],
+    "hero": {
+      "title": "Building the Future <span class='text-accent-500'>Engineering Solutions</span>",
+      "description": "We take your business to the next level with our 15 years of field and engineering experience. Production and service at global standards.",
+      "video": "assets/images/hero/homepage.mp4",
+      "bgImage": "assets/images/hero/hero-bg.jpg",
+      "ctaText": "Start Exploring",
+      "ctaLink": "#products"
+    },
+    "difference": {
+      "title": "WHAT SETS US APART",
+      "subtitle": "Serving your A to Z needs from a single professional integrated source",
+      "features": [
+        { "icon": "fa-helmet-safety", "title": "15 Years of Field Experience", "desc": "We combine 15 years of field experience gained in giant projects on a global scale with our new and dynamic structure." },
+        { "icon": "fa-compass-drafting", "title": "Engineering Oriented Approach", "desc": "With our expert staff of civil engineering origin, we build your projects on technical excellence and reliability." },
+        { "icon": "fa-handshake", "title": "Integrated Solution Partnership", "desc": "We manage all processes from design to turnkey delivery from a single professional source." }
+      ]
+    },
+    "productsSection": {
+      "title": "Featured Solutions",
+      "desc": "High-tech systems developed specifically for your needs."
+    },
+    "products": [],
+    "about": {
+      "title": "Engineering Based <span class='text-accent-500'>Global Vision</span>",
+      "subtitle": "15 Years of Field Experience, Next Generation Solutions",
+      "content": "<p class='mb-4'><strong>Seaflux Global</strong> is an engineering-based technology and manufacturing company set out to redefine standards in the entertainment and water parks sector. Although our company is a new formation, the power behind it is a deep experience coming from the discipline of civil engineering, having personally served in the field in the most prestigious projects around the world for over 15 years.</p><p class='mb-4'>We transform the 'turnkey' concept in the sector from just a promise into a technical reality. Thanks to our founding staff with a civil engineering background, we handle your projects not just as aesthetic designs; but as living, safe, and sustainable structures, from static calculations to ground surveys, from hydraulic balance to installation safety.</p><p>As Seaflux Global, we are not just suppliers; we are your solution partner with technical mastery of every stage of your project, capable of foreseeing field challenges from the desk.</p>",
+      "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=1000",
+      "stats": [
+        { "value": "15+", "label": "Years Exp." },
+        { "value": "50+", "label": "Global Projects" },
+        { "value": "100%", "label": "Engineering" }
+      ]
+    },
+    "projectsPage": {
+      "title": "Global References",
+      "description": "Prestigious projects where engineering meets aesthetics, brought to life all around the world.",
+      "items": [
+        { "title": "Aqua Fantasy", "location": "Izmir, Turkey", "image": "assets/images/project-1.jpg", "category": "Water Park" },
+        { "title": "Ocean Dome", "location": "Miyazaki, Japan", "image": "assets/images/project-2.jpg", "category": "Indoor Park" },
+        { "title": "Siam Park", "location": "Tenerife, Spain", "image": "assets/images/project-3.jpg", "category": "Theme Park" },
+        { "title": "Tropical Islands", "location": "Krausnick, Germany", "image": "assets/images/project-4.jpg", "category": "Resort" },
+        { "title": "Yas Waterworld", "location": "Abu Dhabi, UAE", "image": "assets/images/project-5.jpg", "category": "Water Park" },
+        { "title": "Sunway Lagoon", "location": "Kuala Lumpur, Malaysia", "image": "assets/images/project-6.jpg", "category": "Theme Park" }
+      ]
+    },
+    "servicesPage": {
+      "title": "End-to-End Services",
+      "description": "We are with you in all processes from the idea stage of your project to its commissioning.",
+      "items": [
+        { "icon": "fa-pencil-ruler", "title": "Concept Design", "desc": "Creative master planning that meets your dreams with technical reality." },
+        { "icon": "fa-cogs", "title": "Engineering & R&D", "desc": "Construction of safe structures with static, mechanical and hydraulic calculations." },
+        { "icon": "fa-industry", "title": "Manufacturing", "desc": "High quality, smooth and durable composite production with RTM technology." },
+        { "icon": "fa-hard-hat", "title": "Project Management & Installation", "desc": "On-time and safe field operations at international standards." },
+        { "icon": "fa-screwdriver-wrench", "title": "Maintenance & Service", "desc": "Periodic maintenance and spare parts support that extends the life of your facility." },
+        { "icon": "fa-chart-line", "title": "Business Consulting", "desc": "Efficiency analysis and operational process improvement services." }
+      ]
+    },
+    "designPage": {
+      "title": "Concept Design",
+      "description": "Creative and technical design process that turns your dreams into reality.",
+      "content": "<p class='mb-4'>Seaflux Global design team develops concepts specific to you by analyzing the geography, cultural structure and target audience of your project. We allow you to experience your project before it is built with 3D modeling and VR presentations.</p><p>Every line is drawn considering engineering truths and budget optimization as well as aesthetic concerns.</p>",
+      "image": "assets/images/service-design.jpg"
+    },
+    "waterParksPage": {
+      "title": "Water Parks",
+      "description": "Selections from our turnkey water park projects.",
+      "content": "<p class='mb-4'>We serve a wide range from small-scale boutique hotel parks to huge themed water worlds. Each project is optimized according to land slope and climatic conditions.</p>",
+      "image": "assets/images/project-waterparks.jpg"
+    },
+    "contactPage": {
+      "title": "Contact Us",
+      "description": "Get in touch with our professional team for your projects.",
+      "address": "Gebze OSB, Teknoloji Blvd No:1, 41400 Kocaeli, Turkey",
+      "phone": "+90 262 000 00 00",
+      "email": "info@seafluxglobal.com",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.6876735626!2d29.4166!3d40.8000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ4JzAwLjAiTiAyOcKwMjUnMDAuMCJF!5e0!3m2!1sen!2str!4v1620000000000!5m2!1sen!2str"
+    },
+    "footer": {
+      "copyright": "© 2026 Seaflux Global. All rights reserved. <span class=\"block md:inline text-white/70 text-sm md:text-base mt-1 md:mt-0 md:ml-2\">| Water Park Projects, Theme Park Design & Engineering Solutions.</span>",
+      "contactBox": {
+        "title": "CALL US NOW!",
+        "label": "CONTACT"
+      },
+      "newsletter": {
+        "title": "BE THE FIRST TO KNOW!",
+        "placeholder": "Enter your email address",
+        "button": "SEND"
+      },
+      "links": [
+        {
+          "title": "Projects",
+          "items": [
+            { "title": "Water Parks", "link": "projects/water-parks" },
+            { "title": "Theme Parks", "link": "projects/theme-parks" },
+            { "title": "Aquatic Centers", "link": "projects/aquatic-centers" },
+            { "title": "Hotels & Resorts", "link": "projects/hotels-resorts" }
+          ]
+        },
+        {
+          "title": "Services",
+          "items": [
+            { "title": "Design", "link": "services/design" },
+            { "title": "Engineering", "link": "services" },
+            { "title": "Manufacturing", "link": "services" },
+            { "title": "Installation", "link": "services" }
+          ]
+        },
+        {
+          "title": "Company",
+          "items": [
+            { "title": "About Us", "link": "corporate/about" },
+            { "title": "Contact", "link": "contact" },
+            { "title": "Careers", "link": "#" }
+          ]
+        }
+      ]
+    }
+  }
+}

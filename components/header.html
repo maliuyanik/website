@@ -1,0 +1,53 @@
+<!-- Sticky Header & Navigation -->
+<header id="main-header" class="fixed w-full top-0 z-50 transition-all duration-300 py-8 bg-gradient-to-b from-black/60 to-transparent">
+    <div class="w-full px-6 md:px-12 lg:px-20 flex justify-between items-center">
+        <!-- Logo -->
+        <a href="index" class="logo-text h-20 block transition-all duration-300 overflow-hidden">
+            <img src="assets/images/icons/logo.png" alt="Seaflux Global" class="h-full w-auto object-contain scale-[1.12]">
+        </a>
+        
+        <!-- Right Actions: Language & Menu Toggle -->
+        <div class="flex items-center gap-3 md:gap-6">
+            <!-- Language Selector -->
+            <div class="relative group z-50">
+                <button id="lang-toggle" class="flex items-center gap-2 text-white font-medium text-lg hover:text-accent-500 transition-all duration-300 py-2">
+                    <span id="current-lang-text">Türkçe</span>
+                    <i class="fa-solid fa-chevron-down text-xs transition-transform duration-300 group-hover:rotate-180"></i>
+                </button>
+                <div class="absolute top-full right-0 w-32 bg-white rounded-lg shadow-xl overflow-hidden opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+                    <a href="#" data-lang="tr" class="lang-link block px-4 py-3 text-gray-800 hover:bg-gray-50 hover:text-accent-500 transition text-sm font-medium border-b border-gray-100">Türkçe</a>
+                    <a href="#" data-lang="en" class="lang-link block px-4 py-3 text-gray-800 hover:bg-gray-50 hover:text-accent-500 transition text-sm font-medium">English</a>
+                </div>
+            </div>
+
+            <!-- Hamburger Menu Button -->
+            <button id="menu-toggle-btn" class="text-white text-4xl cursor-pointer hover:text-accent-500 transition-all duration-300 z-50 relative">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </div>
+</header>
+
+<!-- Sidebar Overlay Menu -->
+<div id="overlay-menu" class="fixed inset-0 z-[60] invisible">
+    <div id="menu-backdrop" class="absolute inset-0 bg-black/40 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+    <div id="menu-sidebar" class="absolute top-0 right-0 h-full w-full md:w-[400px] bg-gradient-to-b from-black/60 to-black/20 backdrop-blur-md text-white transform translate-x-full transition-transform duration-500 ease-in-out flex flex-col justify-center shadow-2xl border-l border-white/10">
+        <button id="close-menu-btn" class="absolute top-8 right-8 text-white/80 hover:text-white text-3xl transition p-2">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <nav class="w-full px-8">
+            <ul id="overlay-menu-list" class="flex flex-col items-center gap-3 text-center">
+                <!-- JS ile doldurulacak -->
+            </ul>
+        </nav>
+
+        <!-- Mobile Language Selector -->
+        <div class="mt-8 w-full px-8 md:hidden">
+            <div class="flex justify-center items-center gap-4 p-4 border-t border-white/10">
+                <a href="#" data-lang="tr" class="lang-link mobile-lang-link text-white font-bold text-lg hover:text-accent-500 transition">TR</a>
+                <span class="text-white/30">|</span>
+                <a href="#" data-lang="en" class="lang-link mobile-lang-link text-white/70 font-medium text-lg hover:text-accent-500 transition">EN</a>
+            </div>
+        </div>
+    </div>
+</div>

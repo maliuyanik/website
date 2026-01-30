@@ -1,0 +1,128 @@
+/* Tailwind Base is handled via CDN for this demo */
+
+/* --- Fluid Typography (2026 Standard) --- */
+/* clamp(min, preferred, max) kullanarak her ekrana uyan yazı boyutu */
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: clamp(2.5rem, 5vw + 1rem, 4.5rem) !important; /* Mobilde 2.5rem, masaüstünde 4.5rem'e kadar büyür */
+}
+
+h2 {
+    font-size: clamp(1.8rem, 3vw + 1rem, 3rem) !important;
+}
+
+/* --- Container Queries --- */
+/* Kart bileşenleri kendi genişliklerine göre şekil alır */
+.product-card-container {
+    container-type: inline-size;
+    container-name: card;
+}
+
+@container card (max-width: 400px) {
+    .card-content h3 {
+        font-size: 1.2rem; /* Kart daraldığında başlık küçülür */
+    }
+}
+
+/* --- Footer Styles --- */
+#footer-placeholder {
+    background-color: #ff6b00;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.footer-list li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-list a {
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-list a:hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.contact-box {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.icon-circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 9999px;
+    background-color: white;
+    color: #ff6b00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-input {
+    flex-grow: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    color: white;
+}
+
+.newsletter-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.newsletter-btn {
+    background-color: black;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-btn:hover {
+    background-color: #1a1a1a;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .footer-bottom {
+        flex-direction: row;
+    }
+}
+
+.footer-logo {
+    height: 6rem;
+    width: auto;
+    object-fit: contain;
+}
