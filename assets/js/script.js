@@ -177,7 +177,7 @@ document.addEventListener('componentsLoaded', () => {
                         // Normal Link
                         let linkUrl = item.link || '#';
                         // Eğer link http ile başlamıyorsa ve # değilse base path ekle
-                        if (linkUrl !== '#' && !linkUrl.startsWith('http')) linkUrl = basePath + linkUrl;
+                        if (linkUrl !== '#' && !linkUrl.startsWith('http') && !linkUrl.startsWith('//')) linkUrl = basePath + linkUrl;
 
                         li.innerHTML = `
                             <a href="${linkUrl}" class="flex justify-center items-center py-2 hover:text-accent-500 transition-colors ${fontSize} ${fontWeight} ${textColor} tracking-wide">
@@ -386,7 +386,7 @@ document.addEventListener('componentsLoaded', () => {
                         ${column.items.map(item => {
                             // Link kontrolü ve basePath ekleme
                             let linkUrl = item.link || '#';
-                            if (linkUrl !== '#' && !linkUrl.startsWith('http') && !linkUrl.startsWith('mailto')) {
+                            if (linkUrl !== '#' && !linkUrl.startsWith('http') && !linkUrl.startsWith('//') && !linkUrl.startsWith('mailto')) {
                                 linkUrl = basePath + linkUrl;
                             }
                             return `<li><a href="${linkUrl}">${item.title}</a></li>`;
