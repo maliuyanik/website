@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     const links = placeholder.querySelectorAll("a");
                     links.forEach(link => {
                         const href = link.getAttribute("href");
-                        if (href && !href.startsWith("http") && !href.startsWith("//") && !href.startsWith("#") && !href.startsWith("mailto")) {
+                        if (href && !href.startsWith("http") && !href.startsWith("#") && !href.startsWith("mailto")) {
                             link.setAttribute("href", basePath + href);
                         }
                     });
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     const images = placeholder.querySelectorAll("img");
                     images.forEach(img => {
                         const src = img.getAttribute("src");
-                        if (src && !src.startsWith("http") && !src.startsWith("//")) {
+                        if (src && !src.startsWith("http")) {
                             img.setAttribute("src", basePath + src);
                         }
                     });
